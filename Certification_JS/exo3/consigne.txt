@@ -1,0 +1,31 @@
+il vous est demandé dans cet exercice de mettre en place un site de blog que vous devrez dynamisez avec l'api conçue dans l'exo 2
+
+fonctionnement:
+
+    - l'administrateur à le droit exclusif de créer les articles, de les modifier ou de les supprimer
+
+    -- l'administrateur à le droit exclusif de créer les catégories de les modifier ou de les supprimer
+
+    -- l'administrateur à le droit exclusif de créer des tags de les modifier ou de les supprimer
+
+    -- l'utilisateur peut créer un compte
+
+    -- l'utilisateur peut liker , commenter  et liker un article
+
+    -- l'utilisateur peut répondre à un commentaire d'un article
+
+    -- l'utilisateur doit être connecté avant de liker  et de commenter un article
+
+    Dans le cas ou l'utilisateur veut liker ou commenter un article et qu'il n'a pas de compte,lorsqu'il clique sur le boutton commenter ou liker, vous devrez lui proposé un modal dans le quel il aura un formulaire d'inscription.
+
+
+    -- l'utilisateur doit pouvoir rechercher un article, par son nom , sa catégorie ou son tag
+
+
+  NB: la partie des commentaires et des likes et aussi des recherches doit fonctionner avec websocket.
+
+      la page de connexion et d'inscription doit être un modal qui apparait uniquement lorsque l'utilisateur clique sur le boutton s'inscrire
+      ou se connecter ou commenter ou liker.
+
+
+      Inscription et connexion se font par websocket, sans rechargement de page.

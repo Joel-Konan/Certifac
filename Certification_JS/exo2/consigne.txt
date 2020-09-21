@@ -1,0 +1,17 @@
+
+Dans cet exercice, on vous demande de mettre en place une api , api qui  permettra à un blog de fonctionnner, c'est à dire l'on pourra ajouter , modifier , supprimer un article, pourvoir commentez un article
+pourvoir liker un article,
+
+fonctionnement:
+
+
+    -- un article contient entre autre un titre, une image principale, un contenue, une catégorie et un tag,
+
+    NB: l'on peut commenter et liker un article, l'on peut également répondre au commentaire d'un article
+
+
+
+
+  Base de données: mongoDB, les categories et les Tags doivent tous deux des modèles
+
+
